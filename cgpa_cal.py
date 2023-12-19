@@ -8,7 +8,7 @@ grade_value = {"A":5,"B":4,'C':3,"D":2,"E":1,"F":0}
 
 sum = 0
 while True:
-   user_input = input("input grade and course unit like so eg. B,3 :")
+   user_input = input("input grade and course unit like so eg. A,3 :")
    if user_input == "stop":
       print("your final cgpa is ", current_cgpa)
       break
